@@ -122,7 +122,7 @@ jobs:
         run: west build -s app -b ${{ matrix.board }} -- ${{ steps.variables.outputs.shield-arg }} ${{ matrix.cmake-args }}
       - name: Archive artifacts
         if: ${{ !matrix.skip-archive }}
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: "${{ steps.variables.outputs.artifact-name }}"
           path: |
