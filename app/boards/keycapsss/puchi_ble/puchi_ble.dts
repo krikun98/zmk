@@ -6,7 +6,7 @@
 
 /dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
-#include <common/nordic/nrf52840_uf2_boot_mode.dtsi>
+#include <common/nordic/nrf52_uf2_boot_mode.dtsi>
 
 #include "arduino_pro_micro_pins.dtsi"
 #include "puchi_ble-pinctrl.dtsi"
